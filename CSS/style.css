@@ -4,34 +4,40 @@
 
 li {
 	display: inline;
-	margin: 160px;
+	padding: 140px;
 }
 body {
 	background: linear-gradient( 45deg, blue, red );   
-	font-family: Alegreya;
+	font-family: 'Nixie One', cursive;
+	font-weight: bolder;
 	font-size: 20px;
 }
 
 .books {
-	align-items: center;
+	align: center;
 }
 
 img {
 	width: 300px;
 	height: 500px;
-	display: inline-block;
 }
 
 .description {
+	width: 580px;
+	height: 250px;
+	display: inline-block;
+	text-align: justify;
+}
+
+.glasgow {
 	width: 580px;
 	height: 500px;
 	display: inline-block;
 	text-align: justify;
 }
-
 .fa {
 	display: inline;
-	margin: 20px;
+	margin-left: 30px;
 }
 
 a:link {
