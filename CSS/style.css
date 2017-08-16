@@ -1,10 +1,12 @@
 .menu {
-	display: inline;
+	display: block;
+	float: right;
+	/*border: 2px;
+	border-style: solid;*/
 }
 
 li {
-	display: inline;
-	padding: 140px;
+	display: block;
 }
 body {
 	background: linear-gradient( 45deg, blue, red );   
@@ -12,32 +14,157 @@ body {
 	font-weight: bolder;
 	font-size: 20px;
 }
+.container {
+	display: block;
+}
 
 .books {
 	align: center;
+	display: block;
+	/*border: 2px;
+	border-style: solid;*/
+}
+
+h1{
+	display: block;
+	text-align: center;
+	/*border: 2px;
+	border-style: solid;*/
 }
 
 img {
 	width: 300px;
 	height: 500px;
+	/*border: 2px;
+	border-style: solid;*/
+}
+#doerr {
+	display: block;
+	/*border: 2px;
+	border-style: solid;*/
+}
+#light {
+	width: 580px;
+	height: 140px;
+	display: inline-block;
+	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/
 }
 
-.description {
+#juliette {
+	width: 580px;
+	height: 210px;
+	display: inline-block;
+	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/
+}
+
+#glasgow {
+	width: 580px;
+	height: 520px;
+	display: inline-block;
+	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/
+}
+
+#skinpalace {
+	width: 580px;
+	height: 210px;
+	display: inline-block;
+	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/	
+}
+
+#grownup {
+	width: 580px;
+	height: 360px;
+	display: inline-block;
+	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/
+}
+
+#cagedbird {
+	width: 580px;
+	height: 320px;
+	display: inline-block;
+	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/
+}
+
+#wind {
+	width: 580px;
+	height: 430px;
+	display: inline-block;
+	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/
+}
+
+#curiousincident {
 	width: 580px;
 	height: 250px;
 	display: inline-block;
 	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/	
 }
 
-.glasgow {
+#americangirls {
 	width: 580px;
-	height: 500px;
+	height: 460px;
 	display: inline-block;
 	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/
 }
+
+#lesbianexperience {
+	width: 580px;
+	height: 180px;
+	display: inline-block;
+	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/
+}
+
+#sadgirls {
+	width: 580px;
+	height: 140px;
+	display: inline-block;
+	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/
+}
+
+#redrosa {
+	width: 580px;
+	height: 360px;
+	display: inline-block;
+	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/	
+}
+
+#neurocomic {
+	width: 580px;
+	height: 430px;
+	display: inline-block;
+	text-align: justify;
+	/*border: 2px;
+	border-style: solid;*/
+}
+
 .fa {
 	display: inline;
 	margin-left: 30px;
+	/*border: 2px;
+	border-style: solid;*/
 }
 
 a:link {
