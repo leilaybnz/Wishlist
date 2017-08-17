@@ -1,37 +1,35 @@
 .menu {
-	display: block;
+	display: inline-block;
 	float: right;
+	text-align: right;
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 li {
 	display: block;
 }
 body {
-	background: linear-gradient( 45deg, blue, red );   
+	background: linear-gradient( 45deg, #c0d5f7, #ecc4f2 );   
 	font-family: 'Nixie One', cursive;
 	font-weight: bolder;
 	font-size: 20px;
+	color: #ef3784;
 }
 .container {
 	display: block;
 }
-
 .books {
 	align: center;
 	display: block;
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 h1{
 	display: block;
 	text-align: center;
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 img {
 	width: 300px;
 	height: 500px;
@@ -51,7 +49,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 #juliette {
 	width: 580px;
 	height: 210px;
@@ -60,7 +57,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 #glasgow {
 	width: 580px;
 	height: 520px;
@@ -69,7 +65,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 #skinpalace {
 	width: 580px;
 	height: 210px;
@@ -78,7 +73,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/	
 }
-
 #grownup {
 	width: 580px;
 	height: 360px;
@@ -87,7 +81,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 #cagedbird {
 	width: 580px;
 	height: 320px;
@@ -96,7 +89,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 #wind {
 	width: 580px;
 	height: 430px;
@@ -105,7 +97,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 #curiousincident {
 	width: 580px;
 	height: 250px;
@@ -114,7 +105,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/	
 }
-
 #americangirls {
 	width: 580px;
 	height: 460px;
@@ -123,7 +113,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 #lesbianexperience {
 	width: 580px;
 	height: 180px;
@@ -132,7 +121,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 #sadgirls {
 	width: 580px;
 	height: 140px;
@@ -141,7 +129,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 #redrosa {
 	width: 580px;
 	height: 360px;
@@ -150,7 +137,6 @@ img {
 	/*border: 2px;
 	border-style: solid;*/	
 }
-
 #neurocomic {
 	width: 580px;
 	height: 430px;
@@ -159,26 +145,27 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-
 .fa {
 	display: inline;
-	margin-left: 30px;
+	padding-right: 150px;
 	/*border: 2px;
 	border-style: solid;*/
 }
-
+#github {
+	padding-left: 70px;
+}
+#calendar {
+	padding-right: 70px;
+}
 a:link {
 	color: rgb(221, 170, 247);
 }
-
 a:visited {
 	color: rgb(91, 148, 239);
 }
-
 a:hover {
 	color: rgb(126, 215, 247);
 }
-
 a:active {
 	color: rgb(158, 239, 234);
 }
