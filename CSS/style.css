@@ -1,13 +1,3 @@
-.menu {
-	display: inline-block;
-	float: right;
-	text-align: right;
-	/*border: 2px;
-	border-style: solid;*/
-}
-li {
-	display: block;
-}
 body {
 	background: linear-gradient( 45deg, #c0d5f7, #ecc4f2 );   
 	font-family: 'Nixie One', cursive;
@@ -18,14 +8,33 @@ body {
 .container {
 	display: block;
 }
-.books {
-	align: center;
+h1 {
 	display: block;
+	text-align: center;
 	/*border: 2px;
 	border-style: solid;*/
 }
-h1{
+.menu {
 	display: block;
+	float: right;
+	text-align: right;
+	/*border: 2px;
+	border-style: solid;*/
+}
+li {
+	display: block;
+}
+/*
+div#img { No hay herencia, el div se llama img
+	codigo
+}
+
+div #img { Indica herencia con el espacio, dentro del div hay un id img
+	
+}
+*/
+.books {
+	width: 50%;
 	text-align: center;
 	/*border: 2px;
 	border-style: solid;*/
@@ -145,17 +154,8 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-.fa {
-	display: inline;
-	padding-right: 150px;
-	/*border: 2px;
-	border-style: solid;*/
-}
-#github {
-	padding-left: 70px;
-}
-#calendar {
-	padding-right: 70px;
+div#about {
+	text-align: justify;
 }
 a:link {
 	color: rgb(221, 170, 247);
@@ -168,4 +168,16 @@ a:hover {
 }
 a:active {
 	color: rgb(158, 239, 234);
+}
+.fa {
+	display: inline;
+	padding-right: 150px;
+	/*border: 2px;
+	border-style: solid;*/
+}
+#github {
+	padding-left: 70px;
+}
+#calendar {
+	padding-right: 70px;
 }
