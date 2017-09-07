@@ -1,43 +1,45 @@
 body {
-	background: linear-gradient( 45deg, #c0d5f7, #ecc4f2 );   
+	background: linear-gradient( 45deg, rgb(192, 213, 247), rgb(236, 196, 242) );   
 	font-family: 'Nixie One', cursive;
 	font-weight: bolder;
 	font-size: 20px;
-	color: #ef3784;
-}
-.container {
-	display: block;
+	color: rgb(239, 55, 132);
 }
 h1 {
-	display: block;
+	/*display: block;
 	text-align: center;
-	/*border: 2px;
-	border-style: solid;*/
+	*/
 }
 .menu {
-	display: block;
-	float: right;
-	text-align: right;
-	/*border: 2px;
-	border-style: solid;*/
-}
-li {
-	display: block;
-}
-/*
-div#img { No hay herencia, el div se llama img
-	codigo
+	position: fixed;
+	width: 100%;
+	margin-left: -8px;
+	margin-top: -120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center; 
+	background-color: rgba(175, 69, 185, 0.7);
+	color: rgb(255, 208, 226);
 }
 
-div #img { Indica herencia con el espacio, dentro del div hay un id img
-	
+
+.menu ul li {
+	display: inline-block;
+	margin-right: : 30px;
+	padding: 5px 100px;
 }
-*/
+
 .books {
-	width: 50%;
+	width: 80%;
+	margin: auto;
 	text-align: center;
-	/*border: 2px;
-	border-style: solid;*/
+	/*height: 800px;*/
+	margin-top: 120px;
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/*align-content: space-around;*/
 }
 img {
 	width: 300px;
@@ -45,110 +47,114 @@ img {
 	/*border: 2px;
 	border-style: solid;*/
 }
-#doerr {
-	display: block;
-	/*border: 2px;
-	border-style: solid;*/
+.column {
+	padding-top: 10px;
+	width: 1000px;
+	/*margin-right: 100px;*/
 }
-#light {
-	width: 580px;
-	height: 140px;
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/
+
+.column .fila{
+	width: 100%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
 }
+
+.column .fila div{
+	width:50%;
+}
+
 #juliette {
-	width: 580px;
-	height: 210px;
+	width: 300px;
+	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
 	border-style: solid;*/
 }
 #glasgow {
-	width: 580px;
-	height: 520px;
+	width: 300px;
+	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
 	border-style: solid;*/
 }
 #skinpalace {
-	width: 580px;
-	height: 210px;
+	width: 300px;
+	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
 	border-style: solid;*/	
 }
 #grownup {
-	width: 580px;
-	height: 360px;
+	width: 300px;
+	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
 	border-style: solid;*/
 }
 #cagedbird {
-	width: 580px;
-	height: 320px;
+	width: 300px;
+	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
 	border-style: solid;*/
 }
 #wind {
-	width: 580px;
-	height: 430px;
+	width: 300px;
+	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
 	border-style: solid;*/
 }
 #curiousincident {
-	width: 580px;
-	height: 250px;
+	width: 300px;
+	height: 520px;
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
 	border-style: solid;*/	
 }
 #americangirls {
-	width: 580px;
-	height: 460px;
+	width: 300px;
+	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
 	border-style: solid;*/
 }
 #lesbianexperience {
-	width: 580px;
-	height: 180px;
+	width: 300px;
+	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
 	border-style: solid;*/
 }
 #sadgirls {
-	width: 580px;
-	height: 140px;
+	width: 300px;
+	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
 	border-style: solid;*/
 }
 #redrosa {
-	width: 580px;
-	height: 360px;
+	width: 300px;
+	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
 	border-style: solid;*/	
 }
 #neurocomic {
-	width: 580px;
-	height: 430px;
+	width: 300px;
+	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
 	/*border: 2px;
@@ -157,6 +163,7 @@ img {
 div#about {
 	text-align: justify;
 }
+/*
 a:link {
 	color: rgb(221, 170, 247);
 }
@@ -169,6 +176,10 @@ a:hover {
 a:active {
 	color: rgb(158, 239, 234);
 }
+/*a img:hover {
+	background-color: rgb(255, 224, 226);
+}*/
+
 .fa {
 	display: inline;
 	padding-right: 150px;
@@ -180,4 +191,8 @@ a:active {
 }
 #calendar {
 	padding-right: 70px;
+}
+
+.column a img:hover{
+	background-color: blue;
 }
