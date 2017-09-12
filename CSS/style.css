@@ -1,36 +1,38 @@
 body {
-	background: linear-gradient( 45deg, rgb(192, 213, 247), rgb(236, 196, 242) );   
-	font-family: 'Nixie One', cursive;
-	font-weight: bolder;
+	background: rgb(222, 228, 236);  
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 20px;
-	color: rgb(239, 55, 132);
+	color: rgb(80, 89, 174);
 }
-h1 {
-	/*display: block;
-	text-align: center;
-	*/
+
+#container {
+	width: 80%;
+	margin: auto;
 }
+
 .menu {
-	position: fixed;
 	width: 100%;
-	margin-left: -8px;
+	position: fixed;
+	margin-left: -160px;
 	margin-top: -120px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center; 
-	background-color: rgba(175, 69, 185, 0.7);
-	color: rgb(255, 208, 226);
+	font-weight: lighter;
+	text-transform: uppercase;
+	background-color: rgba(158, 175, 198, 0.4);
+	color:rgb(207, 103, 143);
 }
 
 
 .menu ul li {
 	display: inline-block;
-	margin-right: : 30px;
 	padding: 5px 100px;
+	border: solid 2px;
 }
 
-.books {
+.content {
 	width: 80%;
 	margin: auto;
 	text-align: center;
@@ -64,106 +66,24 @@ img {
 	width:50%;
 }
 
-#juliette {
+.books {
 	width: 300px;
-	/*height: 520px;*/
 	display: inline-block;
 	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/
 }
-#glasgow {
-	width: 300px;
-	/*height: 520px;*/
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/
+
+footer {
+	width: 60%;
+	padding-top: 100px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
 }
-#skinpalace {
-	width: 300px;
-	/*height: 520px;*/
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/	
+
+div#americangirls {
+	margin-top: 27px;
 }
-#grownup {
-	width: 300px;
-	/*height: 520px;*/
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/
-}
-#cagedbird {
-	width: 300px;
-	/*height: 520px;*/
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/
-}
-#wind {
-	width: 300px;
-	/*height: 520px;*/
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/
-}
-#curiousincident {
-	width: 300px;
-	height: 520px;
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/	
-}
-#americangirls {
-	width: 300px;
-	/*height: 520px;*/
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/
-}
-#lesbianexperience {
-	width: 300px;
-	/*height: 520px;*/
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/
-}
-#sadgirls {
-	width: 300px;
-	/*height: 520px;*/
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/
-}
-#redrosa {
-	width: 300px;
-	/*height: 520px;*/
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/	
-}
-#neurocomic {
-	width: 300px;
-	/*height: 520px;*/
-	display: inline-block;
-	text-align: justify;
-	/*border: 2px;
-	border-style: solid;*/
-}
-div#about {
-	text-align: justify;
-}
-/*
+/* Donde ubico esto? Miterio */
 a:link {
 	color: rgb(221, 170, 247);
 }
@@ -176,23 +96,10 @@ a:hover {
 a:active {
 	color: rgb(158, 239, 234);
 }
-/*a img:hover {
-	background-color: rgb(255, 224, 226);
-}*/
 
-.fa {
-	display: inline;
-	padding-right: 150px;
-	/*border: 2px;
-	border-style: solid;*/
-}
 #github {
 	padding-left: 70px;
 }
 #calendar {
 	padding-right: 70px;
-}
-
-.column a img:hover{
-	background-color: blue;
 }
