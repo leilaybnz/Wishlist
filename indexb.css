@@ -1,0 +1,70 @@
+body {
+	background: rgb(222, 228, 236);  
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	color: rgb(80, 89, 174);
+}
+
+header .row .nav{
+	background-color: rgba(158, 175, 198, 0.4);
+	color: rgb(207, 103, 143);
+}
+
+section .row p {
+  width: 300px;
+}
+
+a:link {
+	color: rgb(214, 196, 239);
+}
+a:visited {
+	color: rgb(166, 168, 237);
+}
+a:hover {
+	color: rgb(160, 131, 198);
+}
+a:active {
+	color: rgb(158, 239, 234);
+}
+
+footer .fa {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+/*READ MORE*/
+.readMoreState {
+  display: none;
+}
+
+.readMoreTarget {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.readMoreState:checked ~ .readMoreWrap .readMoreTarget {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.readMoreState ~ .readMoreTrigger:before {
+  content: 'Show more';
+}
+
+.readMoreState:checked ~ .readMoreTrigger:before {
+  content: 'Show less';
+}
+
+.readMoreTrigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}

@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	background: rgb(222, 228, 236);  
 	font-family: 'Roboto Condensed', sans-serif;
@@ -29,7 +32,7 @@ body {
 .menu ul li {
 	display: inline-block;
 	padding: 5px 100px;
-	border: solid 2px;
+
 }
 
 .content {
@@ -43,12 +46,7 @@ body {
 	flex-wrap: wrap;
 	/*align-content: space-around;*/
 }
-img {
-	width: 300px;
-	height: 500px;
-	/*border: 2px;
-	border-style: solid;*/
-}
+
 .column {
 	padding-top: 10px;
 	width: 1000px;
@@ -80,18 +78,16 @@ footer {
 	justify-content: space-between;
 }
 
-div#americangirls {
-	margin-top: 27px;
-}
 /* Donde ubico esto? Miterio */
+
 a:link {
-	color: rgb(221, 170, 247);
+	color: rgb(214, 196, 239);
 }
 a:visited {
-	color: rgb(91, 148, 239);
+	color: rgb(166, 168, 237);
 }
 a:hover {
-	color: rgb(126, 215, 247);
+	color: rgb(160, 131, 198);
 }
 a:active {
 	color: rgb(158, 239, 234);
@@ -102,4 +98,42 @@ a:active {
 }
 #calendar {
 	padding-right: 70px;
+}
+
+/*READ MORE */
+
+.readMoreState {
+  display: none;
+}
+
+.readMoreTarget {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.readMoreState:checked ~ .readMoreWrap .readMoreTarget {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.readMoreState ~ .readMoreTrigger:before {
+  content: 'Show more';
+}
+
+.readMoreState:checked ~ .readMoreTrigger:before {
+  content: 'Show less';
+}
+
+.readMoreTrigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
 }
