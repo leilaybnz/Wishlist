@@ -5,9 +5,14 @@ body {
 	color: rgb(80, 89, 174);
 }
 
-header .row .nav{
+header .nav {
+	padding-left: 200px;
+}
+
+header .row .nav {
 	background-color: rgba(158, 175, 198, 0.4);
 	color: rgb(207, 103, 143);
+	padding-left: 200px;
 }
 
 section .row p {
