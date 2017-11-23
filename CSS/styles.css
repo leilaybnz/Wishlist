@@ -9,14 +9,17 @@ header .nav {
 	padding-left: 200px;
 }
 
-header .row .nav {
-	background-color: rgba(158, 175, 198, 0.4);
+.nav {
+	background-color: rgba(158, 175, 198, 0.7);
 	color: rgb(207, 103, 143);
-	padding-left: 200px;
 }
 
 section .row p {
-  width: 300px;
+ width: 300px;
+}
+
+.books {
+  margin-top: 120px;
 }
 
 a:link {
@@ -27,14 +30,14 @@ a:visited {
 }
 a:hover {
 	color: rgb(160, 131, 198);
+  text-decoration: none;
 }
 a:active {
 	color: rgb(158, 239, 234);
 }
 
 footer .fa {
-  padding-right: 60px;
-  padding-left: 60px;
+  padding: 50px 40px;
 }
 
 /*READ MORE*/
